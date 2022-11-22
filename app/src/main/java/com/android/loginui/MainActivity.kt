@@ -190,7 +190,7 @@ class MainActivity : ComponentActivity() {
                 .focusOrder(focusRequester ?: FocusRequester()),
             leadingIcon = { Icon(imageVector = inputType.icon, null) },
             label = { Text(text = inputType.label) },
-            //shape = Shapes.small,
+            shape = Shapes.small,
             colors = TextFieldDefaults.textFieldColors(
                 backgroundColor = Color.White,
                 focusedIndicatorColor = Color.Transparent,
